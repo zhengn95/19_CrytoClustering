@@ -1,5 +1,7 @@
 # 19_CrytoClustering
-This repository utilizes Python and Unsupervised Machine Learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
+This repository utilizes Python and Unsupervised Machine Learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.  
+
+![Cryto_Image](https://github.com/zhengn95/19_CrytoClustering/blob/main/Images/Intro_Crypto.jpeg)
 
 ### Introduction of Unsupervised ML:
 Unsupervised Machine Learning refers to a subset of machine learning techniques where algorithms analyze unlabeled data to uncover patterns, structures, or relationships without explicit guidance. Unlike supervised learning, there are no predefined labels or outcomes for the algorithm to learn from. Instead, it autonomously identifies inherent structures within the data.
@@ -57,6 +59,8 @@ In this crytoclustering repo, Python libraries `sci-kit learn` for ML, `pandas`,
   **Question:** What is the best value for k when using the PCA data? Does it differ from the best k value found using the original data?
   **Answer:** Based on this Elbow Curve, it looks like k=4 is the correct one. Compared to the original scaled elbow curve, it us more obvious in the PCA elbow curve that `k=4` is more correct than `k=3` clusters.
 
+![Elbow_Curve](https://github.com/zhengn95/19_CrytoClustering/blob/main/Images/Elbow_Curve.png)
+
 **Step 6:** Cluster Cryptocurrencies with K-means Using the PCA Data
 - Initialize the K-means model with the best value for k: `KMeans(n_clusters=4)`
 - Fit the K-means model: `.fit(df_market_pca)`
@@ -74,4 +78,7 @@ Using fewer features for clustering data with K-Means can have several impacts:
 - **Bias:** Depending on which features are selected to represent the data, there could be bias introduced into the clustering process, potentially leading to biased cluster assignments.
 - **Impact on Cluster Separation:** The choice of features can significantly impact the separation between clusters. Using fewer features may result in clusters that are less distinct or more overlapping.
 
-In summary, while using fewer features can simplify the clustering process and potentially make the results more robust, it's essential to carefully consider the trade-offs between simplicity and the loss of information when deciding on the number and choice of features for clustering.
+In summary, while using fewer features can simplify the clustering process and potentially make the results more robust, it's essential to carefully consider the trade-offs between simplicity and the loss of information when deciding on the number and choice of features for clustering.  
+
+![Scatter_Plot](https://github.com/zhengn95/19_CrytoClustering/blob/main/Images/Scatter_Plot.png)
+

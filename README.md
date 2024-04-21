@@ -3,7 +3,7 @@ In this repository Python and Unsupervised Machine Learning are used to predict 
 
 ![Cryto_Image](https://github.com/zhengn95/19_CrytoClustering/blob/main/Images/Intro_Crypto.jpeg)
 
-### Introduction of Unsupervised ML:
+### Introduction: Unsupervised Machine Learning
 Unsupervised Machine Learning refers to a subset of machine learning techniques where algorithms analyze unlabeled data to uncover patterns, structures, or relationships without explicit guidance. Unlike supervised learning, there are no predefined labels or outcomes for the algorithm to learn from. Instead, it autonomously identifies inherent structures within the data.
 
 One prominent application of Unsupervised Machine Learning is clustering, where algorithms group similar data points based on shared characteristics. The `K-means algorithm` is a popular choice for clustering tasks, as it partitions the data into a predetermined number of clusters, with each cluster represented by its centroid.

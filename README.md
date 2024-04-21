@@ -1,5 +1,5 @@
 # 19_CrytoClustering
-This repository utilizes Python and Unsupervised Machine Learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.  
+In this repository Python and Unsupervised Machine Learning are used to predict if cryptocurrencies are affected by 24-hour or 7-day price changes. See `Crypto_Clustering.ipynb` for the code.
 
 ![Cryto_Image](https://github.com/zhengn95/19_CrytoClustering/blob/main/Images/Intro_Crypto.jpeg)
 
